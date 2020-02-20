@@ -63,6 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Network.cs" />
+    <Compile Include="Assets\Scripts\Clicker.cs" />
+    <Compile Include="Assets\Scripts\ClickMove.cs" />
+    <Compile Include="Assets\Scripts\NavigatePos.cs" />
+    <Compile Include="Assets\Scripts\NetworkMove.cs" />
     <Compile Include="Assets\SocketIO\JSONObject\JSONObject.cs" />
     <Compile Include="Assets\SocketIO\JSONObject\JSONTemplates.cs" />
     <Compile Include="Assets\SocketIO\JSONObject\VectorTemplates.cs" />

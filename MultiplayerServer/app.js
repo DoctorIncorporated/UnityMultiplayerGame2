@@ -20,6 +20,11 @@ io.on('connection', function(socket){
 		console.log(data)
 	})
 
+	socket.on('move', function(data){
+		console.log("player is moving", JSON.stringify(data))
+		socket.broadcast.emit('move', data);
+	})
+
 	socket.on('disconnect', function(){
 		console.log("player disconnected")
 		players--;

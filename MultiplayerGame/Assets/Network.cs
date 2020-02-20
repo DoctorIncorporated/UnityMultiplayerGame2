@@ -15,6 +15,12 @@ public class Network : MonoBehaviour
         socket = GetComponent<SocketIOComponent>();
         socket.On("open", OnConnected);
         socket.On("spawn", OnSpawned);
+        socket.On("move", OnMoved);
+    }
+
+    private void OnMoved(SocketIOEvent e)
+    {
+        Debug.Log("Network player is moving: " + e.data);
     }
 
     private void OnSpawned(SocketIOEvent e)
