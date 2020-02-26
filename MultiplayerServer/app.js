@@ -1,4 +1,7 @@
 var io = require('socket.io')(process.env.PORT || 3000)
+var shortid = require('shortid')
+
+//console.log(shortid.generate())
 
 console.log('Server connected');
 var players = 0
