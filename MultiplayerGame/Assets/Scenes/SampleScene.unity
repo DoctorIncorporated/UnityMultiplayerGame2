@@ -470,6 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 4157991204326283552, guid: 7c90698a2d77f8046a18da56ab7d43d7,
     type: 3}
+  localPlayer: {fileID: 1130271281}
 --- !u!1 &1627691999
 GameObject:
   m_ObjectHideFlags: 0
